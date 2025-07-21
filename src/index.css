@@ -15,6 +15,11 @@
   --text-muted: #94a3b8;
   --border: #e2e8f0;
   --border-light: #f1f5f9;
+  --text-primary-color: var(--primary-color);
+  --text-success-color: var(--success-color);
+  --text-warning-color: var(--warning-color);
+  --text-error-color: var(--error-color);
+  --text-secondary-color: var(--secondary-color);
   --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -119,6 +124,89 @@ body {
 
 .text-secondary {
   color: var(--text-secondary);
+}
+
+.text-primary-color {
+  color: var(--primary-color);
+}
+
+.text-success-color {
+  color: var(--success-color);
+}
+
+.text-warning-color {
+  color: var(--warning-color);
+}
+
+.text-error-color {
+  color: var(--error-color);
+}
+
+.text-secondary-color {
+  color: var(--secondary-color);
+}
+
+.bg-green-50 {
+  background-color: #f0fdf4;
+}
+
+.bg-red-50 {
+  background-color: #fef2f2;
+}
+
+.bg-yellow-50 {
+  background-color: #fefce8;
+}
+
+.bg-blue-50 {
+  background-color: #eff6ff;
+}
+
+.bg-purple-50 {
+  background-color: #faf5ff;
+}
+
+.bg-green-100 {
+  background-color: #dcfce7;
+}
+
+.bg-red-100 {
+  background-color: #fee2e2;
+}
+
+.bg-yellow-100 {
+  background-color: #fef3c7;
+}
+
+.bg-blue-100 {
+  background-color: #dbeafe;
+}
+
+.text-green-800 {
+  color: #166534;
+}
+
+.text-red-800 {
+  color: #991b1b;
+}
+
+.text-yellow-800 {
+  color: #92400e;
+}
+
+.text-blue-800 {
+  color: #1e40af;
+}
+
+.border-red-200 {
+  border-color: #fecaca;
+}
+
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .hidden {
